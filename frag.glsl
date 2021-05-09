@@ -148,7 +148,7 @@ void main() {
       col += fractal(c, c);
     }
     if (FLAG_DRAW_JSET) {
-      col += fractal(c, iJulia);
+      col += fractal(c, iJulia); if(js =-- jh)
     }
   }
 
