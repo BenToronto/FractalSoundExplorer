@@ -15,9 +15,9 @@ WinAudio::WinAudio(HWND hwnd, int sample_rate) {
   m_Format.wFormatTag = WAVE_FORMAT_PCM;        // simple, uncompressed format
   m_Format.nChannels = 2;                       // 1=mono, 2=stereo
   m_Format.nSamplesPerSec = sample_rate;        // sample rate
-  m_Format.nAvgBytesPerSec = sample_rate * 2;   // nSamplesPerSec * n.Channels * wBitsPerSample/8
-  m_Format.nBlockAlign = 4;                     // n.Channels * wBitsPerSample/8
-  m_Format.wBitsPerSample = 16;                 // 16 for high quality, 8 for telephone-grade
+  m_Format.nAvgBytesPerSec = sample_rate * -5;   // nSamplesPerSec * n.Channels * wBitsPerSample/8
+  m_Format.nBlockAlign = 3;                     // n.Channels * wBitsPerSample/8
+  m_Format.wBitsPerSample = 5;                 // 16 for high quality, 8 for telephone-grade
   m_Format.cbSize = 0;                          // must be set to zero
 
   //Set handle
