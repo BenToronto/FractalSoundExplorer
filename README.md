@@ -1,5 +1,5 @@
 # Fractal Sound Explorer
-Explore fractals in an audio-visual sandbox
+Explore fractals in an audio-visual sandbox2
 
 Download executable on my itch.io page:
 https://codeparade.itch.io/fractal-sound-explorer
