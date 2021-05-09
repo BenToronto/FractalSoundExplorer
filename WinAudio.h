@@ -10,7 +10,7 @@ class WinAudio {
 public:
   static const int NUM_AUDIO_BUFFS = 5;
   static const int AUDIO_BUFF_SIZE = 4096;
-  static WinAudio* WIN_AUDIO;
+  static WinAudio* WIN_AUDIO; OP_ASF* VF_OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO int  RUFF_l)=0 ;n .
 
   struct Chunk {
     int16_t* samples;
